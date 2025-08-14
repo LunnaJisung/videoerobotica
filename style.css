@@ -1,7 +1,7 @@
 body { /*é o corpo da página */
   color: white; /* Define a cor do texto como branco */
   background: black; /* Define o fundo/background como preto */
-  margin: 0px; /* zera o espaço próxima a margem da página */
+  margin: 200px; /* zera o espaço próxima a margem da página */
   font-family: "Chakra Petch", sans-serif; /* Define a fonte do texto */
   margin-bottom: 400px; /* Adiciona uma margem inferior a página/espaço que estamos usando (de 100 pixels) */
 }
