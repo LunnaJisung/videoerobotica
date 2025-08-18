@@ -6,24 +6,24 @@ body { /*é o corpo da página */
   margin-bottom: 100px; /* Adiciona uma margem inferior a página/espaço que estamos usando (de 100 pixels) */
 }
 
-.chamada{
-  background: rgb(184, 156, 213);
-  padding-bottom: 80px;
-  padding-top: 80px;
-display: flex;
-justify-content: center;
+.chamada { /* Estilização da seção de chamada principal */
+  background: rgb(184, 156, 213); /* Cor de fundo roxa clara */
+  padding-bottom: 80px;  /* Espaçamento interno na parte inferior */
+  padding-top: 80px; /* Espaçamento interno na parte superior */
+display: flex;  /* Ativa o modelo de layout flexbox */
+justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-.chamada-texto {
-  margin-right: 5%;
+.chamada-texto { /* Estilização do container de texto dentro da chamada */
+  margin-right: 5%; /* Margem à direita para afastar de outros elementos */
 
 }
 
-h1{
-  font-size: 40px;
-}
+h1 { /* Estilização dos títulos h1 */
+  font-size: 40px; /* Tamanho grande para títulos principais */
+} 
 
-p {
-  font-size: 20px;
-}
+p { /* Estilização dos parágrafos */
+  font-size: 20px; /* Tamanho de fonte legível para textos */
+} 
 
