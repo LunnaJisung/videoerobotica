@@ -7,7 +7,7 @@ body { /*é o corpo da página */
 }
 
 .chamada { /* Estilização da seção de chamada principal */
-  background: rgb(184, 156, 213); /* Cor de fundo roxa clara */
+  background: rgb(223, 193, 255); /* Cor de fundo roxa clara */
   padding-bottom: 80px;  /* Espaçamento interno na parte inferior */
   padding-top: 80px; /* Espaçamento interno na parte superior */
 display: flex;  /* Ativa o modelo de layout flexbox */
