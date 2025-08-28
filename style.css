@@ -6,6 +6,13 @@ body { /*é o corpo da página */
   margin-bottom: 100px; /* Adiciona uma margem inferior a página/espaço que estamos usando (de 100 pixels) */
 }
 
+header {
+  border-bottom: solid 2px rgb(42, 122, 228);
+  padding: 20px;
+  font-size: 32px
+  color: rgb(42, 122, 228);
+}
+
 .chamada { /* Estilização da seção de chamada principal */
   background: rgb(223, 193, 255); /* Cor de fundo roxa clara */
   padding-bottom: 80px;  /* Espaçamento interno na parte inferior */
@@ -27,3 +34,28 @@ p { /* Estilização dos parágrafos */
   font-size: 20px; /* Tamanho de fonte legível para textos */
 } 
 
+.categoria-videos {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: top 50px;
+}
+
+.categoria-videos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoria-videos img:hover {
+  opacity: 1.0;
+  border: 3px solid green;
+}
+
+.categoria h2 {
+  color:rgb(42, 122, 228);
+}
